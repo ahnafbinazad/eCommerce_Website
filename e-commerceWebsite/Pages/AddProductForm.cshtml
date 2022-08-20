@@ -1,0 +1,33 @@
+﻿@page
+@model e_commerce_website.Pages.AddProductFormModel
+@{
+}
+
+
+
+
+<h1>Add Product Information</h1>
+<form method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="@Model.product.Name"></label>
+        <input asp-for="@Model.product.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.product.Description"></label>
+        <input asp-for="@Model.product.Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.product.Price"></label>
+        <input asp-for="@Model.product.Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.product.ProductImage"></label>
+        <input asp-for="@Model.product.ProductImage" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.product.ProductImageAlt"></label>
+        <input asp-for="@Model.product.ProductImageAlt" class="form-control" />
+    </div>
+    <input type="submit" value="Save" />
+
+</form>
