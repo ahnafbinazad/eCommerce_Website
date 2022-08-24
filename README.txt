@@ -13,6 +13,6 @@ Users can add items to the shopping cart, which will remain saved using the data
 The website also features an admin functionnality where the admin will be able to delete, assign roles or remove roles from users.
 The admin, when logged in will have additional pages available from the navigation bar from which they will be able to add, delete or update products
 
-Login details for the admin:
+Login details for the admin / seller account:
 username: admin@adminmanager.com
 password: admin123!
